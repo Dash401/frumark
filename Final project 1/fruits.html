@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlki9FipwnuJSom8JwW-lGUiDdCm9M67g8Y4O1V9IexTZlag9q&s">
+    <title>Fruits/Frumark.com</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+         .ab{
+             background-color:rgb(247, 140, 140);
+             color: aliceblue;
+             padding: 30px;
+             text-align: center;
+        }
+        .ch{
+          width: 55px;
+          height: 55px;
+        }
+        li{
+        list-style-type:none ;
+         }
+         img{
+            height:141px ;
+            width:115px;
+            border-radius: 90%;
+            transition: transform 1s;
+         }
+         img :hover{
+          
+           transform: scale(1.2)
+         }
+         body{
+         background-color: rgb(255, 223, 154)
+         }
+         .nav-item{
+            background-color: orange;
+        }
+        .gj{
+         text-align: center;
+         margin:20px;
+         font-size:100px;
+        }
+        .av{
+          margin:100px;
+          text-align: center;
+        }
+        p{
+          font-size: 15px;
+          background-color: greenyellow ;
+          color: orange;
+        }
+</style>
+<script>
+  $(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand" ><img class="ch" src="Frumark.com.png" ></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Food
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="fruits.html">Fruits
+            </a>
+        
+            <a class="dropdown-item" href="vegetbles.html">Vegetables</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="log in.html" tabindex="-1" aria-disabled="true">Login</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="sign up.html" tabindex="-1" aria-disabled="true">Sign up</a>
+          </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+
+    <div class="container">
+        <div class="av">
+            <h1 class="gj">Our Fruits</h1>
+            <h3>We have the best quality fruits and free delivery if late than 26 Hrs. <br>
+             
+            </h3>
+        </div>
+    </div>
+    <div class="container">
+            <div class="row" >
+              <div class="col-sm">
+              
+               <img data-toggle="popover" data-content="Cherries are good source of fibre, vitamins and minerals such as Potassium, Calcium, Vit-A & Folic acid. Price: Rs.403 per box" title="Acerola cherry" src="https://www.halfyourplate.ca/wp-content/uploads/2014/12/acerola_small.gif" alt="">
+                <p>Acerola cherry <br>Rs.403 (box)</p>   
+              </div>
+              <div class="col-sm">
+                
+              <img data-toggle="popover" title="Washington-apple" data-content="Washington Apples are rich source of calcium and antioxidants and helps in improving health and immune system.      Price:  Rs.25" src="https://5.imimg.com/data5/YY/EN/MY-8155364/fresh-apple-500x500.jpg" alt="">
+              <p>Washington Apple</p> 
+                <p> Rs.25 (per 4 peices)</p>
+              </div>
+              
+              <div class="col-sm"> 
+                        <img  data-toggle="popover" title="Banana" data-content="Bananas are rich in fibre, potassium, calcium, vitamin C and vitamin B6. Price: Rs.37 per dozen" src="https://www.halfyourplate.ca/wp-content/uploads/2015/01/banana_small.gif" alt=""><p>Banana <br> Rs.37(per dozen)</p>
+                   
+              </div>
+              <div class="col-sm">
+             <img data-toggle="popover" title="Mango" data-content="Mangoes are rich in fibre, Vit-A, Vit-C and are good source of antioxidants. Price: Rs.64 per kg" src="https://sc01.alicdn.com/kf/UT8ht.oX_NaXXagOFbX7/Fresh-Aphonso-Mango-Kesar-Mango-Ratnagiri-Mango.jpg_350x350.jpg" alt=""> <p>
+                        Mango <br>Rs. 64(per Kg.)
+                    </p>   </div>
+                    <div class="col-sm">
+                             <img data-toggle="popover" title="Lemon" data-content="Lemons are good source of Vitamin C. Price:-Rs.90(Per Kg.)" src="https://images-na.ssl-images-amazon.com/images/I/718jRtF-PaL._SL1500_.jpg" alt=""><p>Lemon <br>Rs. 90 (per Kg.)  </p>    
+                               
+              </div>
+            </div>
+   
+    
+     
+          
+            
+         
+                <div class="row">
+                    
+                  <div class="col-sm">
+                     <img data-toggle="popover" title="Mausami" data-content="Mausami juice contains high amounts of Vitamin C. It cures scuvry. Price:-Rs.45.5 per Kg." src="https://smedia2.intoday.in/aajtak/images/Photo_gallery/052018/1_555_050118040554.jpg" alt=""><p>Mausami <br>Rs.47.5 (per Kg.)</p>  
+                  </div>
+                  <div class="col-sm">
+                     <img data-toggle="popover" title="Black Grapes" data-content="Black grapes are rich in vitamin C, K and A along with flavonoids and minerals. Price:-Rs.100 per Kg." src="https://i.ndtvimg.com/i/2016-08/black-grapes_625x350_51472115863.jpg" alt=""><p>Black grapes <br>Rs.100 (per Kg.)</p>  
+                  </div>
+                  <div class="col-sm">
+                  <img data-toggle="popover" title="Green Grapes" data-content="They're a good source of vitamin K and vitamin C.
+                  The vitamin K in grapes and other produce supports healthy bones and tissues, while the antioxidant vitamin C promotes healing and helps your body absorb iron. Price:-Rs.50" src="https://static.vinepair.com/wp-content/uploads/2017/03/verdicchio-int.jpg" alt=""><p>Green grapes <br>Rs.50 (per Kg.)</p>  
+                  </div>
+                  <div class="col-sm">
+                  <img data-toggle="popover" title="Sapota" data-content="Eating the sapota regularly helps to remove toxins from your body, and is thus great for your skin and hair; it keeps them healthy and moisturised. Price:-Rs.89 per Kg." src="https://cdn2.stylecraze.com/wp-content/uploads/2013/12/2285-16-Amazing-Benefits-Of-Sapota-juice-For-Skin-Hair-And-Health-is.jpg" alt=""><p>Sapota <br>Rs.84 (per Kg.)</p>  
+                  </div>
+                  <div class="col-sm">
+                   <img data-toggle="popover" title="Peach" data-content="Peaches are rich in many vitamins, minerals, and beneficial plant compounds.Price:-Rs.53 per Kg." src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/the_health_benefits_of_peaches_slideshow/thinkstock_rf_peaches.jpg?resize=650px:*" alt="">
+                      <p>Peach <br>
+                        Rs.53(per Kg.)</p>  
+     
+                </div>
+                </div>
+              <br>  <div class="row">
+                    
+                    <div class="col-sm">
+                            <img data-toggle="popover" title="Dreid Blueberries" data-content="Low in Calories, High in Vitamins
+                            Unsweetened dried blueberries are low in fat and calories, but also have incredible nutritional content, including fiber, iron, phosphorus, calcium, potassium, and vitamins A, C, and B-6. Price:-Rs.168 per 100grams" src="https://5.imimg.com/data5/KT/OC/DS/SELLER-73385379/pistachio-500x500.png" alt=""><p> Dried Blueberries <br> Rs.168  (100grams)</p>  
+                    </div>  <div class="col-sm">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28BJvIuWXU1AA4H3Hot5HGbM-RROcvaX3Lkq2MMEpqwwzgn6h5w&s" alt=""><p>Dried Blackberries <br>Rs.221 (100grams)</p>  
+                    </div>  <div class="col-sm">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/71GKY5fq%2BFL._AC_SL1050_.jpg" alt=""><p>Dried Cranberries<br>Rs.173.5 (100grams)</p>  
+                    </div>
+                    <div class="col-sm">
+                                  <img src="https://cdn.mos.cms.futurecdn.net/JEKZM22ZasnFC7JFGkAMvU-320-80.jpg" alt=""><p>Pineapple <br>Rs.60 (Per Peice)</p>  
+                          </div>
+                          <div class="col-sm">
+                                    <img src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/watermelon.jpg?itok=6EdNOdUo" alt=""><p>Watermelon <br>Rs.78 (Per Kg.)</p>  
+                            </div>
+                             
+                   
+                  </div>
+               
+                <br>  <div class="row">
+                    <div class="col-sm">
+                          <img src="https://img.rasset.ie/000a4fe9-500.jpg" alt=""><p>plum <br>
+                        Rs.78(per Kg.)</p>  
+                  </div>
+                              <div class="col-sm">
+                                      <img src="https://cdn.britannica.com/24/174524-050-A851D3F2/Oranges.jpg" alt=""><p>Orange <br> Rs.65 (per Kg.)</p>  
+                              </div>  <div class="col-sm">
+                                      <img src="https://images-na.ssl-images-amazon.com/images/I/61Xv2Av4rIL.jpg" alt=""><p>Litchi <br>
+                                      Rs.735(10kg)</p>  
+                              </div>
+                        <div class="col-sm">
+                                <img src="https://images.agoramedia.com/everydayhealth/gcms/All-About-Pomegranate-722x406.jpg" alt=""><p>Pomegranate <br>
+                               Rs.94   (250gram)</p>  
+                        </div>  <div class="col-sm">
+                                <img src="https://i.ndtvimg.com/i/2015-11/guava-benefits-625_625x350_71447741866.jpg" alt=""><p>Guava <br>
+                               Rs. 33 (per Kg.)</p>  
+                        </div>  <div class="col-sm">
+                                <img src="https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/pears.jpg?itok=CGjollRu" alt=""><p>Pear <br>
+                               Rs. 55.(Per Kg.)</p> 
+                        </div>
+                       
+                      </div>
+                   
+                    <br>  
+                      
+                                 
+                   
+                            </div> </div>
+                            <div   class="ab">
+                              <p>Thank you for visiting our website</p>
+                              <p>~ From Frumark.com</p>
+                          </div>
+                             
+</body>
+</html>
